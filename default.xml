@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="rk3576"
+           fetch="git@github.com:wuzbgit" />
+  <default revision="master"
+           remote="rk3576" sync-j="2" />
+  <project path="u-boot" name="rk3576-uboot" revision="master" />
+  <project path="kernel-6.1" name="rk3576-bsp" revision="master" />
+  <project path="buildroot" name="rk3576-buildroot" revision="master" />
+  <project path="device" name="rk3576-device" revision="master" />
+  <project path="prebuilts" name="rk3576-prebuilts" revision="master" />
+  <project path="external" name="rk3576-external" revision="master" />
+  <project path="tools" name="rk3576-tools" revision="master" />
+  <project path="mkimage" name="rk3576-mkimage" revision="master" />
+  <project path="rkbin" name="rk3576-rkbin" revision="master" />
+  <project path="app" name="linux-comon" revision="master" />
+</manifest>
+
+
